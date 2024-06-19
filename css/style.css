@@ -11941,6 +11941,7 @@ slider video play
   word-wrap: break-word;
   max-width: 100%;
   color: #222222;
+  text-align: left;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .section-title h2 {

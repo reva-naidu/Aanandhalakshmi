@@ -1,0 +1,4 @@
+.social-share a:hover i {
+  color: #d6b459 !important;
+  transition: color 700ms ease;
+}

@@ -1,0 +1,20 @@
+.custom-card {
+  border: none;
+  outline: none;
+
+  > .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    :first-child {
+      margin-bottom: 0.75rem;
+    }
+    :last-child span {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .custom-img {
+      max-width: 4rem;
+    }
+  }
+}

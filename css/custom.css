@@ -8,12 +8,12 @@
 
 **********************************************************************************/
 .light-logo--version {
-  background: rgba(0, 0, 0, 0.4);
-  background-color: rgba(0, 0, 0, 0.4);
+  background: #16315e66;
+  background-color: #16315e66;
 }
 .light-logo--version.headroom--not-top {
-  background: rgba(0, 0, 0, 0.9);
-  background-color: rgba(0, 0, 0, 0.9);
+  background: #16315e66;
+  background-color: #16315e66;
 }
 
 .fix-width {

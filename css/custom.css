@@ -12,9 +12,10 @@
   background-color: #16315e66;
 }
 .light-logo--version.headroom--not-top {
-  background: #16315e;
-  background-color: #16315e;
+  background: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
+
 
 .fix-width {
   max-width: 1440px !important;

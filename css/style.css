@@ -2688,6 +2688,14 @@ separator bounce
   background-position: center center;
 
 }
+.bg_image--251
+{
+  background-image: url(/img/Construction/aananda-enclave-banner.webp
+  );
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center; 
+}
 .bg_image--255 {
   background-image: url(/media/contact-bg.jpg);
   background-repeat: no-repeat;

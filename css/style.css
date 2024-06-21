@@ -15521,7 +15521,7 @@ social area
   display: inline-block;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  color: #222222;
+  color: #ffffff;
   padding: 5px 13px;
   font-size: 20px;
 }
@@ -15550,7 +15550,7 @@ social area
   color: #999;
 }
 .social-share.body-color a:hover {
-  color: #222222;
+  color: #ffffff;
 }
 .social-share.text-white a {
   color: #ffffff;

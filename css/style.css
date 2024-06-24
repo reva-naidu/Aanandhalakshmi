@@ -148,39 +148,36 @@ stylesheet indexing
 default styles
 ====================================*/
 
+
 @font-face {
   font-family: 'Optima';
   font-style: normal;
-  font-weight: normal;
-  src: local('Optima'), url('OPTIMA.woff') format('woff');
-  }
-  
+  font-weight: 400; /* Normal weight */
+  src: local('Optima'), url('../OPTIMA.TTF') format('truetype');
+}
 
-  @font-face {
+@font-face {
   font-family: 'Optima Italic';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Optima Italic'), url('Optima_Italic.woff') format('woff');
-  }
-  
+  font-style: italic; /* Corrected to italic */
+  font-weight: 400; /* Normal weight */
+  src: local('Optima Italic'), url('../Optima_Italic.ttf') format('truetype');
+}
 
-  @font-face {
+@font-face {
   font-family: 'Optima Medium';
   font-style: normal;
-  font-weight: normal;
-  src: local('Optima Medium'), url('Optima Medium.woff') format('woff');
-  }
-  
+  font-weight: 500; /* Medium weight */
+  src: local('Optima Medium'), url('../Optima Medium.ttf') format('truetype');
+}
 
-  @font-face {
+@font-face {
   font-family: 'Optima Bold';
   font-style: normal;
-  font-weight: normal;
-  src: local('Optima Bold'), url('OPTIMA_B.woff') format('woff');
-  }
+  font-weight: 700; /* Bold weight */
+  src: local('Optima Bold'), url('../OPTIMA_B.TTF') format('truetype');
+}
 
 
-@import url("https://fonts.googleapis.com/css?family=poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,900|permanent+marker|playfair+display:400,400i,700,700i,900,900i|montserrat:300,300i,400,400i,500,500i,600,700,700i,800|open+sans:400|roboto:400,400i,500,500i,700,700i,900|reenie+beanie|source+sans+pro:wght@400;600;700;900|spectral:600|work+sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400|edu+vic+wa+nt+beginner:wght@400;500;600;700&display=swap");
 .color-dark {
   color: #222222 !important;
 }
@@ -311,7 +308,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "poppins", helvetica, sans-serif;
+  font-family: "Optima", helvetica, sans-serif;
 }
 
 a {
@@ -780,7 +777,7 @@ body {
   line-height: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #333333;
   font-weight: 400;
 }
@@ -830,7 +827,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   line-height: 1.3;
   color: #222222;
 }
@@ -1390,11 +1387,11 @@ separator bounce
 }
 
 .primary-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .heading-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .playfair-font {
@@ -10592,11 +10589,11 @@ padding top bottom
 
 /* font specialized */
 .body-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .heading-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 /* height and width */
@@ -11340,7 +11337,7 @@ button.bk-btn {
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0em;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 a.bk-btn.theme-btn,
 button.bk-btn.theme-btn {
@@ -11370,7 +11367,7 @@ button.brook-btn {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
   font-weight: 600;
   letter-spacing: 0em;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -11632,7 +11629,7 @@ a.moredetails-btn.yellow-color-2:hover {
   color: #222222;
 }
 .view-more-btn.headingfont a span {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .view-more-btn.font-18 a {
   font-size: 18px;
@@ -11663,7 +11660,7 @@ a.moredetails-btn.yellow-color-2:hover {
   margin-left: 14px;
   color: #fcb72b;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .view-more-btn a span.btn-arrow::before {
   content: "";
@@ -11975,7 +11972,7 @@ slider video play
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.43;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   margin-bottom: 39px;
 }
 @media only screen and (max-width: 767px) {
@@ -12024,7 +12021,7 @@ slider video play
   line-height: 1.32;
   font-weight: 700;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .section-title.normal-text h2 {
   font-weight: 400;
@@ -12348,7 +12345,7 @@ creative agency section title
   font-weight: 600;
   font-size: 14px;
   color: #fff;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   white-space: nowrap;
   line-height: 1.2;
 }
@@ -12471,12 +12468,12 @@ service css
   line-height: 1.38;
   margin-bottom: 18px;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
 }
 .service.service--1 .content p {
   color: #333;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   letter-spacing: 0em;
   line-height: 1.32;
   font-size: 16px;
@@ -12569,7 +12566,7 @@ service css
   font-weight: 600;
   letter-spacing: 0em;
   line-height: 1.23;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .service.service--3 .content h3 a {
   color: #222222;
@@ -12583,7 +12580,7 @@ service css
   letter-spacing: 0em;
   line-height: 1.32;
   font-size: 16px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #333333;
 }
 .service.service--3:hover .thumb a img {
@@ -12960,7 +12957,7 @@ counterup area
   line-height: 1.43;
   margin-bottom: 0;
   word-wrap: break-word;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .number-speaks .content h2 {
   font-size: 48px;
@@ -12987,7 +12984,7 @@ counterup area
   font-size: 70px;
   font-weight: 700;
   line-height: 0.9;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 33.33333%;
   flex: 0 0 33.33333%;
@@ -13006,12 +13003,12 @@ counterup area
   line-height: 1.39;
   margin-bottom: 0;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
 }
 .number-wrap .content p {
   margin-top: 20px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   line-height: 1.32;
   font-size: 16px;
   margin-bottom: 0;
@@ -13084,7 +13081,7 @@ team area
   letter-spacing: 1px;
   text-transform: uppercase;
   line-height: 1.43;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team-heading .heading-right button {
   padding: 0;
@@ -13093,7 +13090,7 @@ team area
   font-weight: 600;
   font-size: 14px;
   color: #222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team-heading .heading-right button i {
   padding-left: 10px;
@@ -13271,13 +13268,13 @@ team area
   margin-bottom: 4px;
   color: #222222;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team.team_style--1 .info span {
   letter-spacing: 0em;
   line-height: 1.32;
   font-size: 16px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #333;
 }
 .team.team_style--1:hover .image-wrap .thumb .overlay {
@@ -13394,7 +13391,7 @@ team area
   line-height: 1.388;
   margin-bottom: 6px;
   color: #fff;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team.team__style--2 .thumb .team-info .info span {
   color: hsla(0deg, 0%, 100%, 0.5);
@@ -13478,7 +13475,7 @@ team area
   font-size: 18px;
   line-height: 1.388;
   margin-bottom: 6px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team.team__style--3 .team-info .info span {
   font-weight: 500;
@@ -13538,7 +13535,7 @@ team area
   line-height: 1.4;
   margin-bottom: 2px;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .team.team_style--4 .inner .content-body .position {
   font-size: 14px;
@@ -13951,7 +13948,7 @@ blog default style
   line-height: 1.56;
   margin-bottom: 0;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   margin: 0 0 18px;
 }
 .blog .blog-content .content h3.the-title a {
@@ -14107,7 +14104,7 @@ blog default style
   line-height: 1.375;
   margin-bottom: 0;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   margin: 0 0 18px;
 }
 .blog-style--1 .blog-content .content h3.the-title a {
@@ -14118,7 +14115,7 @@ blog default style
   line-height: 1.12;
   margin-bottom: 0;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .blog-style--1 .blog-content .content h6.post-quote-by a {
   color: #fff;
@@ -14150,7 +14147,7 @@ http://prntscr.com/m3ajf8
   font-weight: 700;
   font-size: 24px;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .address-inner .address p {
   line-height: 1.94;
@@ -14158,7 +14155,7 @@ http://prntscr.com/m3ajf8
   margin-bottom: 0;
   font-size: 16px;
   color: #333333;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .address-inner .address p a {
   color: #333333;
@@ -14168,7 +14165,7 @@ http://prntscr.com/m3ajf8
   padding: 2px 0;
   overflow: hidden;
   z-index: 1;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   display: inline-block;
   line-height: 16px;
 }
@@ -14313,7 +14310,7 @@ contact form style 01
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
   transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -14326,7 +14323,7 @@ contact form style 01
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   -webkit-transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
   transition: all 0.3s cubic-bezier(1, 0.03, 0, 0.99);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 16px;
   font-weight: 700;
   padding-left: 0;
@@ -14368,7 +14365,7 @@ contact form style 01
   color: #333333;
   font-weight: 700;
   font-size: 16px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .form-style--1 .form-action .form-description {
@@ -14394,7 +14391,7 @@ contact form style 01
   cursor: pointer;
   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
           box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #ffffff;
   border-color: #0038e3;
   background-color: #0038e3;
@@ -14430,7 +14427,7 @@ contact
   background-color: #0038e3;
   font-size: 14px;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   border-radius: 6px;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -14753,7 +14750,7 @@ about area
   font-weight: 600;
   font-size: 14px;
   color: #fff;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   white-space: nowrap;
   line-height: 1.2;
 }
@@ -14922,7 +14919,7 @@ call to action area
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   font-size: 14px;
 }
@@ -15634,7 +15631,7 @@ social area
   right: auto;
 }
 .social-icon.social-text.second-font li a {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .social-icon.tooltip-layout.text-dark li a {
   color: #333333;
@@ -15707,7 +15704,7 @@ social area
   z-index: 1000001;
 }
 .social-icon.tooltip-layout li a[class*=hint--][aria-label]:after {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   line-height: 1.23;
   content: attr(aria-label);
@@ -15939,7 +15936,7 @@ a[class*=hint--]:before {
   z-index: 1000001;
 }
 a[class*=hint--][aria-label]:after {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   line-height: 1.23;
   content: attr(aria-label);
@@ -16850,14 +16847,14 @@ custom carousel area
   font-size: 18px;
   margin-bottom: 14px;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   line-height: 1.23;
 }
 .carousle-slider .content p {
   line-height: 1.58;
   font-size: 14px;
   font-weight: 500;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #333333;
   margin: 0;
 }
@@ -16989,7 +16986,7 @@ countdown area
   bottom: -31px;
   font-size: 14px !important;
   color: #999;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .time_circles > div > span {
@@ -17400,7 +17397,7 @@ gradation area
   border-radius: 50%;
   text-align: center;
   z-index: 3;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .bk-gradation .item-grid .content {
   position: relative;
@@ -17613,7 +17610,7 @@ pricing plans
 .ht-pricing-list-view thead tr th.pricing-header .heading-h4 {
   font-size: 24px;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   letter-spacing: 0em;
   line-height: 1.23;
@@ -17622,7 +17619,7 @@ pricing plans
 .ht-pricing-list-view thead tr th.pricing-header .heading-h6 {
   font-size: 14px;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   letter-spacing: 0em;
   line-height: 1.23;
@@ -18487,14 +18484,14 @@ testimonial area
   margin-bottom: 6px;
   color: #222222;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--1 .content .testimonial-info .clint-info span {
   color: #333333;
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--1 .content .testimonial-quote {
   padding: 2px 5px 0 0;
@@ -18690,14 +18687,14 @@ testimonial area
   font-size: 18px;
   line-height: 1.388;
   margin-bottom: 4px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--2 .content .testimonial-info .clint-info span {
   font-weight: 500;
   letter-spacing: 0em;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--2 .content .testimonial-info .testimonial-quote {
   position: absolute;
@@ -18814,7 +18811,7 @@ testimonial area
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial-nav-content .testimonial-nav .content .testimonial-info .clint-info span {
   font-size: 15px;
@@ -18827,7 +18824,7 @@ testimonial area
   font-size: 30px;
   line-height: 1.5;
   font-style: normal;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #222222;
 }
 @media only screen and (max-width: 767px) {
@@ -18841,7 +18838,7 @@ testimonial area
   font-weight: 700;
   display: inline-block;
   margin-bottom: 0;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial-nav-content.testimonial-content--2 .testimonial-nav .content .testimonial-info .clint-info span {
   font-size: 15px;
@@ -18911,7 +18908,7 @@ testimonial area
   font-size: 18px;
   line-height: 1.388;
   margin-bottom: 4px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #ffffff;
 }
 .testimonanial-style--3 .testimonial-info .clint-info span {
@@ -18919,7 +18916,7 @@ testimonial area
   letter-spacing: 0em;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #ffffff;
 }
 
@@ -18972,14 +18969,14 @@ testimonial area
   margin-bottom: 6px;
   color: #fff;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--4 .content .testimonial-info .clint-info span {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .testimonial_style--5 .content {
@@ -19013,14 +19010,14 @@ testimonial area
   margin-bottom: 6px;
   color: #fff;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .testimonial_style--5 .content .testimonial-info .clint-info span {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 500;
   line-height: 1.58;
   font-size: 18px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 @media only screen and (max-width: 767px) {
@@ -19721,7 +19718,7 @@ breadcaump area
   font-weight: 600;
   line-height: 1.41;
   font-size: 32px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .breadcaump-area.breadcaump-title-bar .breadcaump-inner .heading.heading-h1 {
   font-weight: 600;
@@ -19761,7 +19758,7 @@ breadcaump area
   z-index: 1;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .breadcaump-area.breadcaump-title-bar .breadcaump-inner .breadcrumb-insite ul.core-breadcaump li a::after {
   content: "";
@@ -20178,7 +20175,7 @@ shopping cart area
   color: #ffffff;
   border-color: #0038e3;
   background-color: #0038e3;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   height: 55px;
   line-height: 53px;
   outline: none;
@@ -20365,7 +20362,7 @@ start dropdown menu
   border: 0 solid transparent;
   border-bottom: 1px solid #444;
   color: #ffffff;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .mega__width--fullscreen .mega__list li a span {
   position: relative;
@@ -20512,7 +20509,7 @@ typography area
 
 .heading {
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   letter-spacing: 0em;
   line-height: 1.23;
@@ -20522,7 +20519,7 @@ typography area
   letter-spacing: 3px;
 }
 .heading.heading-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .heading.bk-hover a {
   color: #222222;
@@ -20934,7 +20931,7 @@ p.bk_pra {
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   p.bk_pra br {
@@ -20942,7 +20939,7 @@ p.bk_pra {
   }
 }
 p.bk_pra.heading-font {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   line-height: 1.32;
   font-size: 16px;
   color: #333333;
@@ -20993,7 +20990,7 @@ p.bk_pra.secondary-font {
   font-family: "montserrat", sans-serif;
 }
 p.bk_pra.heading-font2 {
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 p.bk_pra.font-blod {
   font-weight: 700;
@@ -21096,7 +21093,7 @@ p.bk_pra.line-height-2-22 {
   font-weight: 600;
   line-height: 1.625;
   color: #222222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-style: normal;
 }
 
@@ -21215,7 +21212,7 @@ list area
   font-weight: 500;
   letter-spacing: 0em;
   line-height: 1.38;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .bk-list--2 .list-header.with-number--body h6.heading {
   font-size: 16px;
@@ -21223,7 +21220,7 @@ list area
   letter-spacing: 0em;
   line-height: 1.38;
   color: #333333;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 /* =====================
@@ -21912,7 +21909,7 @@ message box area
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .message-box.bg_cat--1 {
   background: #eee;
@@ -21970,7 +21967,7 @@ accordion area
   padding: 0;
   font-weight: 600;
   border: 0 none;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-appearance: none;
   display: block;
   background: #f7f7f7;
@@ -22004,7 +22001,7 @@ accordion area
   letter-spacing: 0em;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   border: 0 none;
   -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.07);
@@ -22031,7 +22028,7 @@ accordion area
   padding: 0;
   font-weight: 600;
   border: 0 none;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-appearance: none;
   display: block;
   position: relative;
@@ -22068,7 +22065,7 @@ accordion area
   font-weight: 500;
   line-height: 1.58;
   font-size: 14px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   border: 0 none;
   -webkit-box-shadow: inherit;
   box-shadow: inherit;
@@ -22884,7 +22881,7 @@ portfolio grid area
   margin: 0;
   font-weight: 600;
   letter-spacing: 0em;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .portfolio.portfolio_style--1 .port-overlay-info .hover-action h3.post-overlay-title {
@@ -23793,7 +23790,7 @@ portfolio caption
   -ms-flex-positive: 1;
   flex-grow: 1;
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .portfolio-cation .port-overlay-info .hover-action .post-overlay-title a {
   color: #222222;
@@ -23851,7 +23848,7 @@ mesonry button
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   font-weight: 600;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .messonry-button button span.filter-counter::before {
   position: absolute;
@@ -24430,7 +24427,7 @@ portfolio type two
   margin-bottom: 0;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  font-family: poppins, helvetica, arial, sans-serif;
+  font-family: Optima, helvetica, arial, sans-serif;
   font-weight: 600;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -24653,7 +24650,7 @@ portfolio type 3
   color: rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 700;
   display: inline-block;
 }
@@ -26083,7 +26080,7 @@ blog sidebar
   margin-bottom: 20px;
   padding-bottom: 11px;
   border-bottom: 1px solid #eee;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   line-height: 1.23;
   color: #222222;
@@ -26261,7 +26258,7 @@ shop sidebar
   margin-bottom: 20px;
   padding-bottom: 11px;
   border-bottom: 1px solid #eee;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   line-height: 1.23;
   color: #222222;
@@ -28177,7 +28174,7 @@ main components
   font-size: 100px;
   line-height: 1.06;
   margin-bottom: 77px;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .gradient-wrapper .post-info .inner .main-info .main-info-inner h6 {
@@ -28196,7 +28193,7 @@ main components
   line-height: 1.13;
   margin-bottom: 140px;
   text-align: left;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .gradient-wrapper .post-info .inner .main-info .main-info-inner h2 {
@@ -28212,7 +28209,7 @@ main components
   font-size: 18px;
   font-weight: 700;
   color: #222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .gradient-wrapper .post-info .inner .main-info .main-info-inner a.post-read-more .btn-icon {
   position: relative;
@@ -28302,7 +28299,7 @@ main components
   left: 40px;
   font-size: 18px;
   color: #222;
-  font-family: "poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 @media only screen and (max-width: 767px) {
   .gradient-wrapper .post-info .inner .post-categories {
@@ -28665,7 +28662,7 @@ header default area
   font-weight: 600;
   line-height: 1.18;
   font-size: 16px;
-  font-family: "Optima Medium";
+  font-family: "Optima";
   color: #000000;
   padding-top: 41px;
   padding-bottom: 41px;
@@ -29783,7 +29780,7 @@ Start Up Service
   font-size: 18px;
   line-height: 1.4;
   margin-bottom: 21px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   margin: 0 0 18px;
 }
@@ -30668,7 +30665,7 @@ Header Broadsheets
   line-height: 1.18;
   font-size: 18px;
   color: #222222;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -30802,7 +30799,7 @@ Button Hire
   color: #222;
   font-size: 18px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .hire-on-top-button:hover .the-arrow {
   color: #222;
@@ -30989,7 +30986,7 @@ Portfolio Slide
 }
 .single-portfolio-slide .inner .info h3.heading {
   margin-bottom: 18px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .single-portfolio-slide .inner .info h3.heading a {
   color: #ffffff;
@@ -31000,7 +30997,7 @@ Portfolio Slide
 .single-portfolio-slide .inner .info .category a {
   font-size: 16px;
   color: #999;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .single-portfolio-slide .inner .info .slide-btn a {
   -webkit-box-shadow: none;
@@ -31459,7 +31456,7 @@ Fullscreen Slider Wrapper
   z-index: 2;
   font-weight: 700;
   line-height: 1.38;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .fullscreen-slider-wrapper .feature-wrapper .fullscreen-inner .post-character.style-1 {
   color: #b40720;
@@ -31499,7 +31496,7 @@ Fullscreen Slider Wrapper
   font-size: 18px;
   font-weight: 700;
   color: #222;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -31795,7 +31792,7 @@ Product Area
 .product .product-info .price span {
   display: inline-block;
   color: #333333;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .product .product-info .price span.new-price {
   color: #d5382c;
@@ -31952,7 +31949,7 @@ Product Area
   transform: translateX(-50%);
 }
 .product .product-thumbnail .product-action .action-list.tooltip-layout li a[class*=hint--][aria-label]:after {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 600;
   line-height: 1.23;
   content: attr(aria-label);
@@ -32382,7 +32379,7 @@ Prresentation Area
   text-transform: uppercase;
 }
 .presentation-slider-wrapper .presentation-inner .inner.about-inner .content h2 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 48px;
   line-height: 1.11;
   word-wrap: break-word;
@@ -32399,7 +32396,7 @@ Prresentation Area
   }
 }
 .presentation-slider-wrapper .presentation-inner .inner.about-inner .content p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-weight: 700;
 }
 .presentation-slider-wrapper .presentation-inner .inner.about-service .row {
@@ -32515,7 +32512,7 @@ Prresentation Area
   border-bottom-color: rgba(0, 0, 0, 0);
   margin-bottom: 19px;
   padding-bottom: 13px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .footer-widget .footer-menu ul.ft-menu-list {
   list-style: none;
@@ -32534,7 +32531,7 @@ Prresentation Area
   font-weight: 500;
   letter-spacing: 0em;
   line-height: 2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
   transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
 }
@@ -32551,7 +32548,7 @@ Prresentation Area
   font-size: 14px;
   font-weight: 500;
   line-height: 2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #ffffff;
 }
 .footer-widget .footer-address p a {
@@ -32590,7 +32587,7 @@ Prresentation Area
   color: #fff;
 }
 .footer-widget.text-var--2 .footer-menu ul.ft-menu-list li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: 0em;
@@ -32599,12 +32596,12 @@ Prresentation Area
 .footer-widget.text-var--2 .footer-address p {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .footer-widget.text-var--2 .footer-address p a {
   font-size: 14px;
   font-weight: 500;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 .footer-widget.news-bulletin .heading {
@@ -32705,18 +32702,18 @@ Copyright Variation
   font-size: 14px;
   font-weight: 500;
   line-height: 2;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   color: #ffffff;
 }
 .copyright .copyright-right p a {
   color: #fff;
 }
 .copyright.text-var-2 .copyright-left ul.bk-copyright-menu li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   font-size: 14px;
 }
 .copyright.text-var-2 .copyright-right p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 .copyright.copyright--2 .copyright-left p {
   margin: 0;
@@ -52037,19 +52034,19 @@ body.template-font-1 .h3,
 body.template-font-1 .h4,
 body.template-font-1 .h5,
 body.template-font-1 .h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-1 .heading.font-reenie {
   font-family: "Reenie Beanie", cursive;
 }
 body.template-font-1 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-1 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-1 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Optima Medium";
+  font-family: "Optima";
 }
 body.template-font-1 .footer-widget .footer-menu ul.ft-menu-list li a {
   font-family: "Optima";
@@ -52061,7 +52058,7 @@ body.template-font-1 .copyright .copyright-right p {
   font-family: "Optima";
 }
 body.template-font-1 .footer-widget .footer-address p {
-  font-family: "Optima Medium";
+  font-family: "Optima";
 }
 body.template-font-1 .form-style--1 .input-box input,
 body.template-font-1 .form-style--1 .input-box textarea {
@@ -52096,50 +52093,50 @@ body.template-font-2 .h3,
 body.template-font-2 .h4,
 body.template-font-2 .h5,
 body.template-font-2 .h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .heading.font-reenie {
   font-family: "Reenie Beanie", cursive;
 }
 body.template-font-2 .mini-cart .shopping-cart .shop-inner ul.product-list li .content .inner h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .mega__width--fullscreen .mega__list li a span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .mainmenu-wrapper .page_nav ul.mainmenu li.lavel-1 > a span {
-  font-family: "Optima Medium";
+  font-family: "Optima";
 }
 body.template-font-2 .footer-widget .footer-menu ul.ft-menu-list li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .copyright ul.bk-copyright-menu li a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .copyright .copyright-right p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .footer-widget .footer-address p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .form-style--1 .input-box input,
 body.template-font-2 .form-style--1 .input-box textarea {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .testimonial_style--1 .content p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .testimonial_style--1 .content .testimonial-info .clint-info span {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .service.service--1 .content p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .service.service--2 .content h4 {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 body.template-font-2 .service.service--2 .content p {
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
 }
 
 body.template-font-3 .heading,
@@ -52541,7 +52538,7 @@ Preview Area
 }
 .pv-service-wrapper .single-grid .inner h4 {
   font-size: 20px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Optima", sans-serif;
   line-height: 1.4;
   margin-bottom: 0;
   word-wrap: break-word;

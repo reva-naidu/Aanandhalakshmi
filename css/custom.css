@@ -7,6 +7,41 @@
 	Note: This is custom css.
 
 **********************************************************************************/
+@font-face {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: 400; /* Normal weight */
+  src:
+    local("Optima"),
+    url("/fonts/OPTIMA.TTF") format("truetype");
+}
+
+@font-face {
+  font-family: "Optima Italic";
+  font-style: italic; /* Corrected to italic */
+  font-weight: 400; /* Normal weight */
+  src:
+    local("Optima Italic"),
+    url("/fonts/Optima_Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Optima Medium";
+  font-style: normal;
+  font-weight: 500; /* Medium weight */
+  src:
+    local("Optima Medium"),
+    url("/fonts/Optima Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Optima Bold";
+  font-style: normal;
+  font-weight: 700; /* Bold weight */
+  src:
+    local("Optima Bold"),
+    url("/fonts/OPTIMA_B.TTF") format("truetype");
+}
 .light-logo--version {
   background: #16315e66;
   background-color: #16315e66;
@@ -19,4 +54,7 @@
 .fix-width {
   max-width: 1440px !important;
   margin-inline: auto;
+}
+* {
+  font-family: "Optima" !important;
 }

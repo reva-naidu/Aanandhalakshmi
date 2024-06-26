@@ -183,15 +183,15 @@ default styles
 }
 
 :is(input[type="submit"],button,.aanandalakshmi-button) {
-  background-color: #cbac56 !important;
-  border-color: #cbac56 !important;
+  background-color: #16315e !important;
+  border-color: #16315e !important;
   color: #ffffff !important;
 }
 
 :is(.aanandalakshmi-border-button) {
   background-color: transparent !important;
-  border:1px solid #cbac56 !important;
-  color: #cbac56 !important;
+  border:1px solid #16315e !important;
+  color: #16315e !important;
   max-width: max-content;
   padding: 0.75rem 1rem;
   position: relative;
@@ -216,7 +216,7 @@ default styles
 }
 :is(.aanandalakshmi-border-button):hover::before {
   width: 100%;
-  background-color: #cbac56 !important;
+  background-color: #16315e !important;
   transition: all ease 800ms;
   z-index: -1;
 }
@@ -425,6 +425,14 @@ blockquote i {
   font-style: normal;
   font-weight: 300;
 }
+.bg_image--387 {
+  background-image: url(../img/about/Picture3.jpg
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
 .bg_image--249{
   background-image: url(../img/revoulation/pexels-kyla-rose-rockola-816198.jpg
     );
@@ -450,7 +458,7 @@ blockquote i {
 
 }
 .bg_image--300{
-  background-image: url(../img/Construction/banner.png
+  background-image: url(../img/Construction/heritage.jpg
     );
   background-repeat: no-repeat;
   background-size: cover;
@@ -778,7 +786,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "Optima", sans-serif;
-  color: #333333;
+  color: #222222;
   font-weight: 400;
 }
 

@@ -66,3 +66,7 @@
   filter: brightness(0) saturate(100%) invert(14%) sepia(82%) saturate(1115%)
     hue-rotate(195deg) brightness(95%) contrast(95%);
 }
+
+.footer-socials-main a:hover i {
+  color: #000000 !important;
+}

@@ -1,13 +1,17 @@
 document
   .getElementById("openFormButton")
   .addEventListener("click", function () {
-    document.getElementById("formPopup").style.display = "block";
+    // document.getElementById("formPopup").style.display = "block";
+    document.getElementById('formOverlay').style.display = 'block';
+    document.getElementById('formPopup').style.display = 'block';
   });
 
 document
   .getElementById("closeFormButton")
   .addEventListener("click", function () {
-    document.getElementById("formPopup").style.display = "none";
+    // document.getElementById("formPopup").style.display = "none";
+    document.getElementById('formOverlay').style.display = 'none';
+    document.getElementById('formPopup').style.display = 'none';
     document.querySelector('input[name="name"]').value = "";
     document.querySelector('input[name="email"]').value = "";
     document.querySelector('input[name="phone"]').value = "";

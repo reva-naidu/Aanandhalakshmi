@@ -78,6 +78,65 @@
   color: #333;
 }
 .pagination a.active {
-  background-color:#16315e;
+  background-color: #16315e;
   color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-weight: 500 !important;
+}
+.form-popup {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #888;
+  z-index: 9;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  width: 300px;
+  font: "Optima" !important;
+}
+
+.form-pop {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-pop h2 {
+  margin-bottom: 20px;
+}
+
+.form-pop input[type=text], .form-pop input[type=email], .form-pop input[type=tel] {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 15px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-pop .btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.form-pop .btn.cancel {
+  background-color: red !important;
+}
+
+.form-pop .btn:hover {
+  opacity: 0.8;
+}
+#openFormButton {
+  margin: 20px;
 }

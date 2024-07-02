@@ -832,13 +832,56 @@
                 </div>
                 <div class="portfolio-share">
                   <a
-                    href="/media/aanandalakshmi-cotton-linters.pdf"
-                    target="blank"
+                    id="openFormButton"
+                    data-href="/media/aanandalakshmi-cotton-linters.pdf"
                   >
                     <h6 class="heading heading-h6 aanandalakshmi-border-button">
                       DOWNLOAD BROCHURE
                     </h6>
                   </a>
+                </div>
+                <div id="formPopup" class="form-popup">
+                  <form
+                    action="https://formsubmit.co/revanth@outshade.com "
+                    method="POST"
+                    id="contactForm"
+                    class="form-pop"
+                  >
+                    <h2>Enter Details</h2>
+
+                    <label for="name"><b>Name</b></label>
+                    <input
+                      type="text"
+                      placeholder="Enter Name"
+                      name="name"
+                      required
+                    />
+
+                    <label for="email"><b>Email</b></label>
+                    <input
+                      type="email"
+                      placeholder="Enter Email"
+                      name="email"
+                      required
+                    />
+
+                    <label for="phone"><b>Phone Number</b></label>
+                    <input
+                      type="tel"
+                      placeholder="Enter Phone Number"
+                      name="phone"
+                      required
+                    />
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button
+                      type="button"
+                      class="btn cancel"
+                      id="closeFormButton"
+                    >
+                      Close
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -850,7 +893,7 @@
                 <img
                   class="w-100 h-100"
                   style="object-fit: cover"
-                  src="media/textiles-section-1.webp"
+                  src="media/textiles-section-1.jpg"
                   alt="multipurpose"
                 />
               </div>
@@ -894,7 +937,7 @@
                 <img
                   class="w-100 h-100"
                   style="object-fit: cover"
-                  src="media/textiles-section-2.webp"
+                  src="media/textiles-section-2.jpg"
                   alt="multipurpose"
                 />
               </div>
@@ -1024,14 +1067,17 @@
                     <a style="color: #ffffff" href="heritage.html">Heritage</a>
                   </li>
                   <li>
-                    <a style="color: #fff" href="/financial.html#annual-report"
-                      >Annual Reports</a
+                    <a style="color: #ffffff" href="/suryavanshi.html"
+                      >Suryavanshi New Leaf</a
                     >
                   </li>
                   <li>
-                    <a style="color: #fff" href="/financial.html#quarter-report"
-                      >Quarterly Reports</a
+                    <a style="color: #ffffff" href="/aananda-enclave.html"
+                      >Aananda Enclave</a
                     >
+                  </li>
+                  <li>
+                    <a style="color: #ffffff" href="/textiles.html">Textiles</a>
                   </li>
                   <li>
                     <a style="color: #fff" href="contact.html">Contact</a>
@@ -1158,5 +1204,6 @@
     <script src="/js/revolution.extension.min.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/revoulation.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

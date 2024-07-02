@@ -841,11 +841,55 @@
                   </p>
                 </div>
                 <div class="portfolio-share">
-                  <a href="/media/nl-suryavanshi.pdf" target="_blank">
+                  <a id="openFormButton" data-href="/media/nl-suryavanshi.pdf">
                     <h6 class="heading heading-h6 aanandalakshmi-border-button">
                       DOWNLOAD BROCHURE
                     </h6>
                   </a>
+                </div>
+                <div id="formPopup" class="form-popup">
+                  <form
+                    action="https://formsubmit.co/revanth@outshade.com "
+                    method="POST"
+                    id="contactForm"
+                    class="form-pop"
+                    onsubmit="return validateForm()"
+                  >
+                    <h2>Enter Details</h2>
+
+                    <label for="name"><b>Name</b></label>
+                    <input
+                      type="text"
+                      placeholder="Enter Name"
+                      name="name"
+                      required
+                    />
+
+                    <label for="email"><b>Email</b></label>
+                    <input
+                      type="email"
+                      placeholder="Enter Email"
+                      name="email"
+                      required
+                    />
+
+                    <label for="phone"><b>Phone Number</b></label>
+                    <input
+                      type="tel"
+                      placeholder="Enter Phone Number"
+                      name="phone"
+                      required
+                    />
+
+                    <button type="submit" class="btn">Submit</button>
+                    <button
+                      type="button"
+                      class="btn cancel"
+                      id="closeFormButton"
+                    >
+                      Close
+                    </button>
+                  </form>
                 </div>
               </div>
             </div>
@@ -1070,10 +1114,10 @@
             <div class="col-lg-12 col-12 col-xl-6">
               <div
                 class="thumbnail pl--50 pr--50 pt--50 pb--50 pt_lg--50 pl_lg--50 pb_lg--25 pt_md--50 pb_md--50 pl_md--50 pt_sm--50 pb_sm--30 pl_sm--20 pr_sm--20"
-                style="overflow: hidden; height: full;"
+                style="overflow: hidden; height: full"
               >
                 <img
-                class="w-100 h-100"
+                  class="w-100 h-100"
                   style="object-fit: cover"
                   src="img/revoulation/map.png"
                   alt="multipurpose"
@@ -1172,18 +1216,17 @@
                     <a style="color: #ffffff" href="heritage.html">Heritage</a>
                   </li>
                   <li>
-                    <a
-                      style="color: #ffffff"
-                      href="/financial.html#annual-report"
-                      >Annual Reports</a
+                    <a style="color: #ffffff" href="/suryavanshi.html"
+                      >Suryavanshi New Leaf</a
                     >
                   </li>
                   <li>
-                    <a
-                      style="color: #ffffff"
-                      href="/financial.html#quarter-report"
-                      >Quarterly Reports</a
+                    <a style="color: #ffffff" href="/aananda-enclave.html"
+                      >Aananda Enclave</a
                     >
+                  </li>
+                  <li>
+                    <a style="color: #ffffff" href="/textiles.html">Textiles</a>
                   </li>
                   <li>
                     <a style="color: #ffffff" href="contact.html">Contact</a>
@@ -1293,5 +1336,6 @@
     <script src="/js/revolution.extension.min.js"></script>
     <script src="/js/main.js"></script>
     <script src="/js/revoulation.js"></script>
+    <script src="/js/script.js"></script>
   </body>
 </html>

@@ -2,16 +2,16 @@ document
   .getElementById("openFormButton")
   .addEventListener("click", function () {
     // document.getElementById("formPopup").style.display = "block";
-    document.getElementById('formOverlay').style.display = 'block';
-    document.getElementById('formPopup').style.display = 'block';
+    document.getElementById("formOverlay").style.display = "block";
+    document.getElementById("formPopup").style.display = "block";
   });
 
 document
   .getElementById("closeFormButton")
   .addEventListener("click", function () {
     // document.getElementById("formPopup").style.display = "none";
-    document.getElementById('formOverlay').style.display = 'none';
-    document.getElementById('formPopup').style.display = 'none';
+    document.getElementById("formOverlay").style.display = "none";
+    document.getElementById("formPopup").style.display = "none";
     document.querySelector('input[name="name"]').value = "";
     document.querySelector('input[name="email"]').value = "";
     document.querySelector('input[name="phone"]').value = "";
@@ -23,19 +23,24 @@ document
     event.preventDefault();
     if (validateForm()) {
       // Trigger file download
-      const myDiv = document.getElementById("openFormButton");
+      try {
+        const myDiv = document.getElementById("openFormButton");
+        if (myDiv) {
+          const dataInfoValue = myDiv.getAttribute("data-href");
+
+          const link = document.createElement("a");
+
+          link.href = dataInfoValue;
+          link.target = "_blank";
+          link.download = dataInfoValue.split("/media/")[0];
+          link.click();
+        }
+      } catch (error) {}
 
       // Access the 'data-info' attribute
-      const dataInfoValue = myDiv.getAttribute("data-href");
-
-      const link = document.createElement("a");
-
-      link.href = dataInfoValue;
-      link.target = "_blank";
-      link.download = dataInfoValue.split("/media/")[0];
-      link.click();
-      this.submit();
     }
+    this.submit();
+
     // Optionally close the form
     document.getElementById("formPopup").style.display = "none";
   });

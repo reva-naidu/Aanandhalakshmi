@@ -781,7 +781,9 @@
           <div class="row align-items-center">
             <div class="col-lg-6">
               <div class="breadcaump-inner text-start">
-                <h1 class="heading heading-h1 font-60 text-white">Contact us</h1>
+                <h1 class="heading heading-h1 font-60 text-white">
+                  Contact us
+                </h1>
               </div>
             </div>
           </div>
@@ -896,7 +898,7 @@
         <div
           class="bk_contact_classic bg_color--44 ptb--160 ptb-md--80 ptb-sm--80"
           style="
-           background-color: #1d2f5b;
+            background-color: #1d2f5b;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: top;
@@ -934,7 +936,7 @@
                     class="heading heading-h4"
                     style="color: #ffffff !important"
                   >
-                  Get in touch
+                    Get in touch
                   </h4>
                   <div class="desc mt--15">
                     <p class="bk_pra line-height-2-22">
@@ -1000,34 +1002,34 @@
             <div class="row">
               <div class="col-lg-6 offset-lg-3">
                 <div class="contact-form">
-                  <form
-                    id="contact-form"
-                    action="http://whizthemes.com/shohel/php/mail.php"
-                  >
+                  <!---                     action="https://formsubmit.co/info@aanandalakshmi.com "
+-->
+                  <form method="POST" action="contact-form.php" id="contactForm">
+                    <input hidden name="formName" value="General Enquiry" />
                     <div class="row">
                       <div class="col-lg-12">
-                        <input
-                          name="con_name"
-                          type="text"
-                          placeholder="Name *"
-                        />
+                        <input name="name" type="text" placeholder="Name *" />
                       </div>
 
                       <div class="col-lg-12 mt--30">
                         <input
-                          name="con_email"
+                          name="email"
                           type="email"
                           placeholder="Email *"
                         />
                       </div>
 
                       <div class="col-lg-12 mt--30">
-                        <input type="text" placeholder="Phone number" />
+                        <input
+                          name="phone"
+                          type="text"
+                          placeholder="Phone number"
+                        />
                       </div>
 
                       <div class="col-lg-12 mt--30">
                         <textarea
-                          name="con_message"
+                          name="message"
                           placeholder="Your message"
                         ></textarea>
                       </div>
@@ -1104,9 +1106,19 @@
                   <li>
                     <a style="color: #ffffff" href="heritage.html">Heritage</a>
                   </li>
-                  <li><a style="color: #ffffff;" href="/suryavanshi.html">Suryavanshi New Leaf</a></li>
-                    <li><a style="color: #ffffff;" href="/aananda-enclave.html">Aananda Enclave</a></li>
-                    <li><a style="color: #ffffff;" href="/textiles.html">Textiles</a></li>
+                  <li>
+                    <a style="color: #ffffff" href="/suryavanshi.html"
+                      >Suryavanshi New Leaf</a
+                    >
+                  </li>
+                  <li>
+                    <a style="color: #ffffff" href="/aananda-enclave.html"
+                      >Aananda Enclave</a
+                    >
+                  </li>
+                  <li>
+                    <a style="color: #ffffff" href="/textiles.html">Textiles</a>
+                  </li>
                   <li>
                     <a style="color: #ffffff" href="contact.html">Contact</a>
                   </li>
@@ -1524,5 +1536,6 @@
         })(jQuery);
       });
     </script>
+    <script src="/js/script.js"></script>
   </body>
 </html>
